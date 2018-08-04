@@ -11,7 +11,7 @@ const App = () => {
       return (
           <BrowserRouter>
             <div className="container">
-              <Route path="/" component={Dashboard} />
+              <Route exact path="/" component={Dashboard} />
               <Route path="/create" component={Create} />
               <Route path="/callback" component={Callback} />
             </div>

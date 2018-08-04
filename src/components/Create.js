@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { uploadWidget } from '../utils/WidgetHelper';
+import Nav from './Nav';
 
 const cloudKey = require('../config/keys').cloudName;
 const uploadPresetKey = require('../config/keys').uploadPreset;
@@ -48,6 +49,7 @@ class Create extends Component {
     render() {
         return (
             <div>
+                <Nav />
                 <div className="col-md-6 col-md-offset-3">
                     <div className="well well-sm">
                         <form className="form-horizontal">

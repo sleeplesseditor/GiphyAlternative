@@ -40,9 +40,9 @@ class Dashboard extends Component {
                                             </div>
                                         </div>
                                         <div className="panel-footer">
-                                            Share on:
+                                            Share on:   
                                             <TwitterShareButton 
-                                                className="label label-info" 
+                                                className="label label-info twitter-button" 
                                                 title={"Cliphy"} 
                                                 url={`http://res.cloudinary.com/${cloudKey}/image/upload/${data.public_id}.gif`}
                                             >
