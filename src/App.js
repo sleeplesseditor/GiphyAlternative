@@ -4,6 +4,7 @@ import './App.css';
 
 import Dashboard from './components/Dashboard';
 import Create from './components/Create';
+import Callback from './components/Callback';
 
 const App = () => {
       console.log('App component is running');
@@ -12,6 +13,7 @@ const App = () => {
             <div className="container">
               <Route path="/" component={Dashboard} />
               <Route path="/create" component={Create} />
+              <Route path="/callback" component={Callback} />
             </div>
           </BrowserRouter>
       );
